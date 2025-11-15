@@ -28,7 +28,6 @@ public class LoginPageTest extends BaseClass {
     public void verifyLogin() {
 
         actiondriver.click(login_button);  
-
         loginPage.login("karthikeyan.r@codingmart.com","testpass");
 
       
